@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect } from "react";
-import SASjs from "sasjs";
+import SASjs from "@sasjs/adapter";
 import { useCallback } from "react";
 
 const defaultConfig = {
