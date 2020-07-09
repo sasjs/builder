@@ -1,0 +1,68 @@
+.folder-container {
+  display: flex;
+  align-items: center;
+  margin: 5px 5px 0 0;
+}
+
+.folder {
+  cursor: pointer;
+  padding: 6px 6px 6px 0;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.folder,
+.folder-selected {
+  width: 80%;
+  i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+i.remove {
+  padding-top: 4px;
+  cursor: pointer;
+}
+
+.folder-selected {
+  color: #ffffff;
+  background-color: #4e4e4e;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.folder-services {
+  width: 100%;
+  padding: 8px 0 0 16px;
+  display: flex;
+  flex-direction: column;
+
+  .service {
+    cursor: pointer;
+    padding: 6px 0;
+    width: 80%;
+    display: inline-block;
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.active {
+      color: #ffffff;
+      background-color: #696e72;
+      padding: 6px;
+      border-radius: 5px;
+    }
+  }
+}
+
+.folder-name {
+  display: inline;
+  p {
+    display: inline;
+  }
+}

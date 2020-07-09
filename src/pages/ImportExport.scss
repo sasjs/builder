@@ -1,0 +1,24 @@
+.upload-button-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+
+  input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+}
+
+.import-export-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .file-upload {
+    display: flex;
+  }
+}

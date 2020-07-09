@@ -1,0 +1,52 @@
+.table-container {
+  overflow: hidden;
+  width: 100%;
+  margin: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  position: relative;
+
+  &.inverted {
+    .ht_master tr td {
+      background-color: #1f2027;
+    }
+  }
+}
+
+.save-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.htContextMenu {
+  color: #1f2027;
+}
+
+.handsontable td.htInvalid {
+  background-color: rgb(249, 149, 149) !important;
+}
+
+.ui.form textarea:not([rows]) {
+  min-height: unset;
+  padding: 1px 5px 0 5px;
+  border: unset;
+  border-radius: unset;
+  box-shadow: 0 0 0 2px #5292f7 inset;
+  border: none;
+  outline-width: 0;
+  margin: 0;
+  font-family: inherit;
+  line-height: 21px;
+  font-size: inherit;
+  box-shadow: 0 0 0 2px #5292f7 inset;
+  resize: none;
+  display: block;
+  color: #000;
+  border-radius: 0;
+  background-color: #fff;
+}

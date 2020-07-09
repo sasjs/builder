@@ -1,0 +1,72 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .main-content {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: auto;
+    min-height: calc(100vh - 32px - 65px);
+    .folders {
+      width: 15%;
+      height: 100%;
+      overflow: auto;
+      margin-bottom: 16px;
+
+      h3 {
+        display: inline-block;
+        padding-right: 4px;
+      }
+
+      i.add {
+        cursor: pointer;
+      }
+
+      .folder-list {
+        margin-top: 8px;
+      }
+    }
+
+    .services {
+      width: 84%;
+      height: 100%;
+      overflow: auto;
+      margin-bottom: 16px;
+      margin-top: 0;
+
+      h3 {
+        display: inline-block;
+        padding-right: 4px;
+      }
+
+      .header {
+        font-weight: 700;
+        font-size: 1.28571429em;
+      }
+
+      .header,
+      .description {
+        padding: 8px;
+      }
+    }
+  }
+}
+
+.new-folder-form {
+  padding: 16px;
+
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .naming-conventions {
+    font-size: 1.1em;
+    padding: 16px 0;
+  }
+}

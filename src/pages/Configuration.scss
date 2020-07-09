@@ -1,0 +1,21 @@
+.configuration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .config-form {
+    width: 75%;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+}
+
+.invalid {
+  border: 1px solid rgb(167, 1, 1) !important;
+  background-color: rgb(248, 206, 206) !important;
+  color: rgb(155, 4, 4) !important;
+}
